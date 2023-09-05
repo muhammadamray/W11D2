@@ -1,10 +1,6 @@
 import './LightSwitch.css';
 import { useTheme } from '../../context/ThemeContext';
 
-
-
-
-
 function LightSwitch() {
   const { themeName, setThemeName } = useTheme();
 
